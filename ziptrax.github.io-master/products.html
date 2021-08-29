@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Products</title>
+    <meta
+      name="viewport"
+      content="width=device-width height=device-height initial-scale=1.0"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CMuli:100,300,400,600,800"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        padding: 10px;
+        height: 550px;
+      }
+
+      .left {
+        width: 50%;
+      }
+      .right {
+        width: 50%;
+      }
+      .left1 {
+        width: 50%;
+      }
+      .right1 {
+        width: 50%;
+      }
+
+      .row:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+      @media only screen and (max-width: 576px) {
+        #head-contact-btn {
+          display: none;
+        }
+      }
+
+      @media only screen and (max-width: 576px) {
+        #header-brand {
+          margin-left: 55%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ie-panel">
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          height="42"
+          width="820"
+          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+      /></a>
+    </div>
+    <div class="preloader" id="loading">
+      <div class="preloader-body">
+        <div id="loading-center-object">
+          <div class="object" id="object_four"></div>
+          <div class="object" id="object_three"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_one"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav
+          class="rd-navbar rd-navbar-modern"
+          data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed"
+          data-md-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-fixed"
+          data-lg-device-layout="rd-navbar-fixed"
+          data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static"
+          data-xxl-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static"
+          data-lg-stick-up-offset="10px"
+          data-xl-stick-up-offset="10px"
+          data-xxl-stick-up-offset="10px"
+          data-lg-stick-up="true"
+          data-xl-stick-up="true"
+          data-xxl-stick-up="true"
+        >
+          <div class="rd-navbar-main">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!-- RD Navbar Toggle-->
+              <button
+                class="rd-navbar-toggle toggle-original"
+                data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+              >
+                <span> </span>
+              </button>
+              <!-- RD Navbar Brand-->
+              <div id="header-brand" class="rd-navbar-brand">
+                <a class="brand" href="index.html">
+                  <img
+                    src="ziptrax-tran-logo.png"
+                    alt=""
+                    style="height: 70px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="rd-navbar-nav-wrap">
+              <!-- RD Navbar Nav-->
+              <ul class="rd-navbar-nav">
+                <li class="rd-nav-item">
+                  <a class="rd-nav-link" href="index.html">Home</a>
+                </li>
+                <li class="rd-nav-item">
+                  <a class="rd-nav-link" href="about-us.html">About us</a>
+                </li>
+                <li class="rd-nav-item">
+                  <a class="rd-nav-link" href="technology.html">Technology</a>
+                </li>
+                <li class="rd-nav-item active">
+                  <a class="rd-nav-link" href="products.html">Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="rd-navbar-element">
+              <a
+                class="button button-sm button-header button-winona"
+                id="head-contact-btn"
+                href="contact-us.html"
+                >Contact us</a
+              >
+              <!-- <div class="group group-xs">
+                  <a class="link link-social-1 mdi mdi-twitter" href="https://twitter.com/ZiptraxTech"></a>
+                  <a class="link link-social-1 mdi mdi-facebook" href="https://www.facebook.com/ziptraxtech/"></a>
+                  <a class="link link-social-1 mdi mdi-linkedin" href="https://www.linkedin.com/company/ziptrax/"></a>
+                </div> -->
+            </div>
+            <div class="rd-navbar-dummy"></div>
+          </div>
+        </nav>
+      </div>
+      <section class="breadcrumbs-custom">
+        <div class="breadcrumbs-custom-main context-dark">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-9">
+                <h2 class="breadcrumbs-custom-title">Products</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="breadcrumbs-custom-aside">
+          <div class="container">
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.html">Home</a></li>
+              <li class="active">Products</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section parallax-container context-dark" data-parallax-img="ZIPTRAX COVER.jpg" style="height:600px"  >
+      <div class="parallax-content"> -->
+      <!-- FScreen-->
+      <!-- <div class="page-header-2-inner">
+          <div class="container">
+            <div class="block-custom">
+            <div class="group-xl group-middle">
+                <h2 style="color: white">ZIPTRAX PRODUCTS</h2>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section> -->
+      <section class="section section-md bg-gray-100 text-center">
+        <div class="container">
+          <div class="badge wow fadeIn">Our Products</div>
+
+          <div class="row row-30 row-xl-60">
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 1</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn" data-anime="circles-2">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 2</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn" data-anime="circles-2">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 3</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn" data-anime="circles-2">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 4</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn" data-anime="circles-2">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 5</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <!-- Box Modern-->
+              <article class="box-modern wow fadeIn" data-anime="circles-2">
+                <div class="box-modern-media">
+                  <div class="box-modern-icon">
+                    <img src="env4.jpg" alt="" />
+                  </div>
+                </div>
+                <p class="box-modern-title">Product Name 6</p>
+                <div class="box-modern-text">
+                  <p>Product Description</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-classic-main">
+          <div class="container text-center">
+            <div class="row row-50 justify-content-lg-between">
+              <div class="col-sm-12 col-lg-3 col-xl-3">
+                <a class="brand" href="index.html">
+                  <img
+                    src="ZIPTRAX_20Lightning_20Energy_20Logo.png"
+                    alt=""
+                    width="148"
+                    height="100px"
+                    style="height: 100px"
+                  />
+                </a>
+              </div>
+              <div class="col-sm-4 col-lg-3 col-xl-3">
+                <h4 class="footer-classic-title">Who We Are</h4>
+                <ul class="list footer-classic-list">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Our Team</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-lg-3 col-xl-3">
+                <h4 class="footer-classic-title">Quick Links</h4>
+                <ul class="list footer-classic-list footer-classic-list_2-cols">
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Our Partners</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="contact-us.html">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-lg-3 col-xl-3">
+                <h4 class="footer-classic-title">Get in Touch</h4>
+                <div class="col-sm-12 col-lg-8 col-xl-12 text-center">
+                  <div class="col-lg-12 col-xl-12">
+                    <a href="mailto:hello@ziptrax.in">hello@ziptrax.in</a>
+                  </div>
+                  <div class="col-lg-12 col-xl-12">
+                    <a href="mailto:sales@ziptrax.in">sales@ziptrax.in</a>
+                  </div>
+                  <div class="col-lg-12 col-xl-12">
+                    <a href="mailto:hr@ziptrax.in">hr@ziptrax.in</a>
+                  </div>
+                </div>
+                <br />
+                <div class="col-sm-12 col-xl-12">
+                  <a
+                    class="link link-social-1 mdi mdi-twitter"
+                    href="https://twitter.com/ZiptraxTech"
+                  ></a>
+                  <a
+                    class="link link-social-1 mdi mdi-facebook"
+                    href="https://www.facebook.com/ziptraxtech/"
+                  ></a>
+                  <a
+                    class="link link-social-1 mdi mdi-linkedin"
+                    href="https://www.linkedin.com/company/ziptrax/"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-classic-aside">
+          <div class="container">
+            <p class="rights">
+              <span>&copy;&nbsp;</span><span class="copyright-year"></span
+              ><span>&nbsp;</span><span>Ziptrax</span>. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
